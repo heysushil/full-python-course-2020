@@ -7,9 +7,41 @@ comment
 variable
 '''
 
+# intend: ye programming syntex ko sahi tarike se follow karne ke liye hota hai
+
+'''
+Varaible: 
+    because ye value ko store karta hai
+    Problem: kis type ki value store kiya hai pata nahi?
+DataType:
+    Ye variabl ne kis type ki vale store ki hai wo bata hai?
+    datatype check karne ke liye type() method ka use kiya
+Opetaor:
+
+Codtion
+loop
+functon
+class
+
+file handling
+database
+
+'''
+x = 6
+y = '6'
+print('\nX: ',type(x), 'Y: ',type(y))
+
+# ye single line comment hai
+'''
+ye multiline comment hai
+'''
 
 print('Hello how are you')
 print('Hello how are you')
+
+if 5 > 10:
+    print('hello')
+    print('hello')
 
 # condion
 if 4 > 1:
@@ -31,9 +63,11 @@ if 4 > 1:
 '''
 PHP Code for if condtion:
 
-if(condiont){
+            if(condiont){
+    
+    
     body of if
-}
+                            }
 
 c / c++ / php / java / aps.net
 '''
@@ -107,12 +141,36 @@ print('Use Number: ',ab[1])
 print('Use Number: ',ab[2])
 print('Use Number: ',ab[3])
 
+# datatype
+'''
+String
+Number System
+    int: 987987
+    float: 8.9
+    complex: 3j is case me small j hi use hota hai complex ke liye
+Sequncing:
+    List: 
+    Tuple:
+    Range:
+Mapining:
+    Dict: key:value
+Set:
+    union
+    intersetion
+    etc....
+Boolean
+Binary
+
+
+'''
 
 '''
 Question:
 
 1. What is intentationin python?
+2. array kya hai?
 2. array me push anad pop kya hota hai?
 3. array me search and sort kaise use karte hain?
+4. kya comple me small j ke alawa koi aur character le sakte hain?
 '''
 
