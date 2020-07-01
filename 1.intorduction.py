@@ -1,4 +1,21 @@
 '''
+Python:
+    Web Development
+    software dever.
+    mathematics
+    system scripting
+    Data Sci.
+    Machine learing
+    Deep ML
+    AI
+
+
+Setup:
+ Python
+ VS Code: edtior
+
+
+
 Topics:
 
 introduction
