@@ -1,64 +1,63 @@
 '''
-Python:
+Web Developemt:
 
-Basci:
-    variable
-    datatype
-        string
-        list
-        tuple
-        dictionary
-        set
-        boolean
-    operatores
-    conditon
-    loop
-    function
+1. Web Desinging
+    HTML
+        heading
+        paragarap
+        table
+        image
+        video
+        audio        
+    CSS
+        Bootstrap
 
+2. Web Development
+    PHP
+        basic
+            variable
+            dataype
+            operators
+            condtion
+            loop
+            function
+        adv.
+            class
+            object
+            inheit
 
-Adv.
+        PHP + Database
 
-    class
-    objects
-    inheritance
-    constructer
-    distructer
-
-Databse:
+3. Database
     MySql
-        connection
-        creat databse
-        creat table
-        sql query
-            select
-            where
-            limit
-            order by
-            join
+        connect = php
+        databse create
+        tables creat
 
-Python Librarys
-    json
-    datetime
-    regex
-    math                
+Api
 
-Project Basic + Adv + Database
-
-Question:
-
-python ka scrop kya hai?
-best job profil in python?
-waht is library in python ?
+SMS
+Email            
+Payment
 
 
 
-c or c++
-if(conditon){
-    if boye;
-}
+bussine => website
+promotion => digital marketing
 
-python
 
-if condtion:
-    if body
+Static:
+html> 
+
+Dynamic:
+
+
+
+Qusetion:
+
+what is database?
+what is mysql database?
 '''
+
+
+
