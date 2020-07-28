@@ -81,3 +81,16 @@ print('splitmessage max: ',splitmessage)
 replace = re.sub('This', 'July', message)
 print('replace: ',replace)
 
+
+
+'''
+Programs:
+
+1. user se input lena hai then find karna hai ki user ne kis possition ke char ko captil letter me likha hai.
+
+2. user input me user name agar male hai to name me Mr. add karna hai aur agar femal hai to Miss. add karna hai. then using sub method replace name with anyother name.
+
+3. user input me search karna hai agar koi programming languge ka name hai to otherwise not found ka message show karna hai.
+
+4. user input me agar programming lanague found hota hai aur uska first char small hai to usko capital karna hai.
+'''
