@@ -51,7 +51,7 @@ print(mycursor.rowcount, "recorded inserted")
 # get data orderby
 # data = "SELECT fname,mobile FROM user ORDER BY id DESC"
 
-# limited data
+# limited data`
 data = "SELECT fname,mobile FROM user ORDER BY id DESC LIMIT 10"
 mycursor.execute(data)
 getTableData = mycursor.fetchall()
