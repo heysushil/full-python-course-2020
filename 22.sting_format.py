@@ -13,3 +13,21 @@ Your name is {}
 Your age is {}
 Your email id is {}
 '''.format(name, age, email))
+
+print('''
+Hello use your details is
+
+Your name is {0}
+Your age is {1}
+Your email id is {2}
+
+Hi {0}, how are you, your age is {1} right?
+'''.format(name, age, email))
+
+print('''
+Hello use your details is
+
+Your name is {name}
+Your age is {age}
+Your email id is {email}
+'''.format(name = name,age = age,email = email))
