@@ -33,7 +33,83 @@ Note: Example ke liye mylist = [1,2,3,4], iske behalf par examples diye gaye hai
 11. count(): Count method list me present kisi bhi dublicate values ko count karne ke liye use hota hai. Example: mylist.count(4)
 '''
 
+firstClass = [1,2,3,4,5,6,7,8,9,10]
+print('\nType: ', type(firstClass))
+print('\nfirstclass: ', firstClass)
 
+getSingleVlaue = firstClass[0]
+print('\ngetSingleVlaue: ', getSingleVlaue)
+
+# firstClass with names
+myclass = ['Hey Sushil','Ram','Shyam','Radha','Seeta']
+print('\nGet [0]: ', myclass[0])
+
+# Put list in list
+school = [firstClass, myclass]
+print('\nschool: ', school)
+print('\nGet firstclass form school: ', school[1])
+print('\nGet myclass form school: ', school[1][0])
+print('\nGet myclass form school: ', school[1][-1])
+
+# list method
+myclass = ['Hey Sushil','Ram','Shyam','Radha','Seeta']
+
+# append()
+myclass.append('YouTube Viewer')
+
+# Direct override existing value by index posstion
+myclass[1] = 'Shri Ram'
+
+# find index postion using index()
+findRollNumber = myclass.index('Shyam')
+print('\nfindRollNumber: ', findRollNumber)
+
+# existing index postion will get new value by insert()
+myclass.insert(findRollNumber, 'Hanuman')
+
+print('\nmyclass: ', myclass)
+
+# copy() use to copy list
+newclass = myclass.copy()
+
+# user remove()
+newclass.remove('Hey Sushil')
+
+newclass.append('Old Student')
+
+# pop() method use to remove by index postion
+newclass.pop()
+
+# new student
+newstudent = ['Mona','Teena','Reena']
+
+# extend()
+newclass.extend(newstudent)
+
+# find mona rollnumebr
+findRollNumber = newclass.index('Mona')
+
+newclass.pop(findRollNumber)
+
+
+
+# clear()
+myclass.clear()
+print('\nmyclass: ', myclass)
+
+# count()
+newclass.append('Teena')
+count = newclass.count('Teena')
+print('\ncount: ', count)
+
+otherclass = newclass.copy()
+
+newclass.reverse()
+
+otherclass.sort(reverse=True)
+
+print('\nnewclass reverse: ', newclass)
+print('\nnewclass sort: ', otherclass)
 
 '''
 Questions: 
